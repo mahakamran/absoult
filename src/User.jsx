@@ -12,7 +12,7 @@ const User = () => {
   return (
    < div className='flex lg:flex-row  flex-col lg:flex justify-center mt-[40px]'>
       {/* Sidebar */}
-        <div className='lg:h-[660px] lg:w-[280px]  h-[450px] w-[380px]  ml-3 bg-gradient-to-t from-orange-500 to-pink-600 lg:rounded-tl-[10px] lg:rounded-bl-[10px] rounded-2xl'>
+        <div className='lg:h-[660px] lg:w-[280px]  h-[450px] w-[360px]  ml-7 bg-gradient-to-t from-orange-500 to-pink-600 lg:rounded-tl-[10px] lg:rounded-bl-[10px] rounded-2xl'>
               <img src={img} className='w-[65px] h-[67px] rounded-full mt-8 ml-5' alt="Admin" />
               <div className='-mt-14 ml-24 space-y-0'>
                 <h4 className='text-white font-semibold'>Admin</h4>
@@ -40,7 +40,7 @@ const User = () => {
             </div>
 
       {/* Main Content */}
-      <div className='lg:w-[1080px] lg:h-[620px] bg-white lg:rounded-tr-[10px]    w-[380px] rounded-[5px] ml-3 mt-7 lg:rounded-br-[10px]'>
+      <div className='lg:w-[1080px] lg:h-[620px] bg-white lg:rounded-tr-[10px]    w-[360px] rounded-[5px] ml-7 mt-7 lg:rounded-br-[10px]'>
         <div className='flex justify-between'>
           {/* Search Bar */}
           <div className='w-[270px] h-[35px] bg-gray-200 mt-5 ml-5 rounded'>
