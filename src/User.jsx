@@ -12,7 +12,7 @@ const User = () => {
   return (
    < div className='flex lg:flex-row  flex-col lg:flex justify-center mt-[40px]'>
       {/* Sidebar */}
-        <div className='lg:h-[660px] lg:w-[280px]  h-[450px] w-[320px]  ml-2 bg-gradient-to-t from-orange-500 to-pink-600 lg:rounded-tl-[10px] lg:rounded-bl-[10px] rounded-2xl'>
+        <div className='lg:h-[660px] lg:w-[280px]  h-[450px] w-[380px]  ml-3 bg-gradient-to-t from-orange-500 to-pink-600 lg:rounded-tl-[10px] lg:rounded-bl-[10px] rounded-2xl'>
               <img src={img} className='w-[65px] h-[67px] rounded-full mt-8 ml-5' alt="Admin" />
               <div className='-mt-14 ml-24 space-y-0'>
                 <h4 className='text-white font-semibold'>Admin</h4>
@@ -40,7 +40,7 @@ const User = () => {
             </div>
 
       {/* Main Content */}
-      <div className='lg:w-[1080px] lg:h-[620px] bg-white lg:rounded-tr-[10px]    w-[320px] rounded-[5px] ml-2 mt-7 lg:rounded-br-[10px]'>
+      <div className='lg:w-[1080px] lg:h-[620px] bg-white lg:rounded-tr-[10px]    w-[380px] rounded-[5px] ml-3 mt-7 lg:rounded-br-[10px]'>
         <div className='flex justify-between'>
           {/* Search Bar */}
           <div className='w-[270px] h-[35px] bg-gray-200 mt-5 ml-5 rounded'>
@@ -92,13 +92,13 @@ const User = () => {
               </div>
             </div>
 
-            <div className='flex w-[280px] h-[50px] bg-gray-200 lg:ml-1 lg:mr-0 ml-[-15px] mt-8 rounded-xl'>
+            <div className='flex w-[280px] h-[50px] bg-gray-200 lg:ml-1 lg:mr-0 mt-8 rounded-xl'>
               <img src={img1} className='w-10 h-10 rounded-full ml-2 mt-2' alt="User" />
               <h4 className='pl-2 pt-3'>Michel Fres</h4>
               <FaBell className='text-orange-500 mt-4 ml-28 text-xl' />
             </div>
 
-            <div className='flex w-[280px] h-[50px] bg-gray-200 lg:ml-1 lg:mr-0 ml-[-15px]  mt-4 rounded-xl'>
+            <div className='flex w-[280px] h-[50px] bg-gray-200 lg:ml-1 lg:mr-0  mt-4 rounded-xl'>
               <img src={img3} className='w-10 h-10 rounded-full ml-2 mt-1' alt="User" />
               <h4 className='pl-2 pt-3'>Michel Fres</h4>
               <FaBell className='text-orange-500 mt-4 ml-28 text-xl' />
@@ -106,7 +106,7 @@ const User = () => {
           </div>
         </div>
 
-        <div className='flex lg:justify-between items-center  lg:w-[1040px] w-[300px]  mt-10  ml-2 h-10 lg:h-[35px] bg-gray-200 lg:mt-3 lg:ml-4 rounded'>
+        <div className='flex lg:justify-between items-center  lg:w-[1040px] w-[350px]  mt-10  ml-3 h-10 lg:h-[35px] bg-gray-200 lg:mt-3 lg:ml-4 rounded'>
           <h4 className='pt-1 lg:pl-2 pl-3 font-semibold'>Name</h4>
           <h4 className='pt-1  pl-7 lg:pl-0 font-semibold'>Phone</h4>
           <h4 className='pt-1  pl-7  lg:pl-0 font-semibold'>Email</h4>
@@ -115,7 +115,7 @@ const User = () => {
         </div>
 
         <div className='flex mt-5'>
-          <img src={img} className='w-10 h-10 rounded-full lg:ml-[50px] ml-4' alt="User" />
+          <img src={img} className='w-10 h-10 rounded-full lg:ml-[50px] ml-7' alt="User" />
           <p className='lg:pl-[250px] pl-4 mt-3  text-[12px] lg:text-sm'>4676049</p>
           <h4 className='lg:pl-[200px]  text-[12px]  pl-7  pt-3 lg:text-sm'>123@gamil.com</h4>
           <h4 className='lg:pl-[100px]  text-[12px]  ml-2 pt-3 lg:text-sm'>SC,Robart,MD 34556-876</h4>
@@ -127,7 +127,7 @@ const User = () => {
         <hr className='text-gray-400 mt-2' />
 
         <div className='flex mt-5'>
-          <img src={img1} className='w-10 h-10 rounded-full lg:ml-[50px] ml-4' alt="User" />
+          <img src={img1} className='w-10 h-10 rounded-full lg:ml-[50px] ml-7' alt="User" />
           <p className='lg:pl-[250px] pl-4 mt-3  text-[12px] lg:text-sm'>4676049</p>
           <h4 className='lg:pl-[200px]  text-[12px]  pl-7  pt-3 lg:text-sm'>123@gamil.com</h4>
           <h4 className='lg:pl-[100px]  text-[12px]  ml-2 pt-3 lg:text-sm'>SC,Robart,MD 34556-876</h4>
@@ -139,7 +139,7 @@ const User = () => {
         <hr className='text-gray-400 mt-2' />
 
         <div className='flex mt-5'>
-          <img src={img2} className='w-10 h-10 rounded-full lg:ml-[50px] ml-4' alt="User" />
+          <img src={img2} className='w-10 h-10 rounded-full lg:ml-[50px] ml-7' alt="User" />
           <p className='lg:pl-[250px] pl-4 mt-3  text-[12px] lg:text-sm'>4676049</p>
           <h4 className='lg:pl-[200px]  text-[12px]  pl-7  pt-3 lg:text-sm'>123@gamil.com</h4>
           <h4 className='lg:pl-[100px]  text-[12px]  ml-2 pt-3 lg:text-sm'>SC,Robart,MD 34556-876</h4>
