@@ -1,0 +1,45 @@
+@import "tailwindcss";
+span{
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background-color: rgb(227, 229, 233);
+}
+#nwr{
+    font-family: arial;
+}
+#active{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+#text{
+    font-family: arial;
+    font-weight: lighter;
+    font-size: 19px;
+}
+#hide{
+    background-color: rgba(128, 128, 128, 0.363);
+   position: absolute;
+   border-radius: 10px;
+}
+#show{
+    background-color: whitesmoke;
+}
+#no{
+    font-size: 11px;
+   
+}
+#grt{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.151);
+}
+#mm{
+    font-size: 10px;;
+    color: rgba(19, 18, 18, 0.788);
+    padding-left: 5px
+}
