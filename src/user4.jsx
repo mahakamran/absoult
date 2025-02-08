@@ -16,7 +16,7 @@ const User = () => {
   return (
   < div className='flex lg:flex-row  flex-col lg:flex justify-center mt-[40px]'>
        {/* Sidebar */}
-       <div className='lg:h-[660px] lg:w-[280px]  w-[360px]    h-[450px] ml-7 bg-gradient-to-t from-orange-500 to-pink-600 lg:rounded-tl-[10px] lg:rounded-bl-[10px] rounded-2xl'>
+       <div className='lg:h-[660px] lg:w-[280px]  w-[350px]    h-[450px] ml-2 bg-gradient-to-t from-orange-500 to-pink-600 lg:rounded-tl-[10px] lg:rounded-bl-[10px] rounded-2xl'>
          <img src={img} className='w-[65px] h-[67px] rounded-full mt-8 ml-5' alt="Admin" />
          <div className='-mt-14 ml-24 space-y-0'>
            <h4 className='text-white font-semibold'>Admin</h4>
@@ -43,7 +43,7 @@ const User = () => {
        </div>
  
        {/* Main Content */}
-       <div className='lg:w-[1100px]  lg:flex-row flex-col lg:h-[660px] bg-white w-[360px] ml-7  mt-5  rounded-2xl lg:rounded-tr-[10px] lg:rounded-br-[10px]'>
+       <div className='lg:w-[1100px]  lg:flex-row flex-col lg:h-[660px] bg-white w-[350px] ml-2  mt-5  rounded-2xl lg:rounded-tr-[10px] lg:rounded-br-[10px]'>
          <div className='flex justify-between items-center'>
            {/* Search Bar */}
            <div className='w-[270px] h-[35px] bg-gray-200 lg:mt-5  mt-5 lg:ml-5 ml-2 rounded'>
@@ -109,31 +109,10 @@ const User = () => {
          <div className='w-[250px]   h-[70px] bg-gray-300  rounded-tr-2xl rounded-tl-2xl rounded-br-2xl mt-3 ml-2'>
           <img src={ki}  alt="" />
          </div>
-         <div className='w-[230px] h-[130px] lg:ml-24  ml-32 mt-3 bg-gray-300 '>
+         <div className='w-[230px] h-[130px] lg:ml-24  ml-30 mt-3 bg-gray-300 '>
            <img src={map} className='w-[220px] h-[110px] pt-2 object-cover ml-1' alt="" />
            <h6 id='mm'>Lorem ipsum is a dummy text</h6>
          </div>
-
-
-
-{/* 
-         
-               <div className='w-[300px] h-[550px] lg:mt-[-540px]  ml-2 mt-7 lg:ml-[780px]'>
-                 <img src={use} className='h-[540px] rounded-3xl' alt="" />
-               </div> */}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                <div className='lg:w-[310px]  ml-7 h-[280px] bg-white w-[300px] lg:mt-[-550px] mt-11  lg:ml-[770px] border-5 border-gray-200 rounded-4xl'>
       <img src={img2} className='w-[80px] ml-5 mt-5 h-[80px] object-cover rounded-full border-4 border-red-500' alt="" />

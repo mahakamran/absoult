@@ -9,7 +9,7 @@ const Notify = () => {
   return (
     <div className='flex flex-col md:flex-row justify-center  p-4 max-w-[1200px]  mt-5 mx-auto overflow-hidden'>
       {/* Sidebar */}
-      <div className='md:block  md:h-[620px] h-[450px]  lg:h-[660px] w-[360px] ml-4 md:w-[280px] bg-gradient-to-t from-orange-500 to-pink-600 rounded-lg p-5 mb-5 md:mb-0'>
+      <div className='md:block  md:h-[620px] h-[450px]  lg:h-[660px] w-[350px]  md:w-[280px] bg-gradient-to-t from-orange-500 to-pink-600 rounded-lg p-5 mb-5 md:mb-0'>
         <div className='flex items-center space-x-3'>
           <img src={img} className='w-16 h-16 rounded-full' alt="Admin" />
           <div>
@@ -39,7 +39,7 @@ const Notify = () => {
       </div>
 
       {/* Main Content */}
-      <div className='w-[360px]  ml-3 lg:h-[660px] md:h-[620px] bg-white rounded-lg shadow-md p-5 overflow-y-auto overflow-x-hidden'>
+      <div className='w-[350px]   lg:h-[660px] md:h-[620px] bg-white rounded-lg shadow-md p-5 overflow-y-auto overflow-x-hidden'>
         <div className='flex flex-col md:flex-row justify-between items-center'>
           {/* Search Bar */}
           <div className='relative w-full md:w-[270px] bg-gray-200 p-2 rounded flex items-center mb-3 md:mb-0'>
