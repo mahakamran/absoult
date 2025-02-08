@@ -106,7 +106,7 @@ const User = () => {
           </div>
         </div>
 
-        <div className='flex lg:justify-between items-center  lg:w-[1040px] w-[330px]  mt-10  ml-6  h-10 lg:h-[35px] bg-gray-200 lg:mt-3 lg:ml-4 rounded'>
+        <div className='flex lg:justify-between items-center  lg:w-[1040px] w-[320px]  mt-10  ml-3  h-10 lg:h-[35px] bg-gray-200 lg:mt-3 lg:ml-4 rounded'>
           <h4 className='pt-1 lg:pl-2 pl-3 font-semibold'>Name</h4>
           <h4 className='pt-1  pl-7 lg:pl-0 font-semibold'>Phone</h4>
           <h4 className='pt-1  pl-7  lg:pl-0 font-semibold'>Email</h4>
