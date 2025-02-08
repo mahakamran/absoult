@@ -9,7 +9,7 @@ const Manage = () => {
   return (
    < div className='flex lg:flex-row  flex-col lg:flex justify-center mt-[40px]'>
            {/* Sidebar */}
-               <div className='lg:h-[660px] lg:w-[280px]   h-[500px] w-[350px]  ml-2 bg-gradient-to-t from-orange-500 to-pink-600 lg:rounded-tl-[10px] lg:rounded-bl-[10px] rounded-2xl'>
+               <div className='lg:h-[660px] lg:w-[280px]   h-[500px] w-[350px]  ml-4 bg-gradient-to-t from-orange-500 to-pink-600 lg:rounded-tl-[10px] lg:rounded-bl-[10px] rounded-2xl'>
                    <img src={img} className='w-[65px] h-[67px] rounded-full mt-8 ml-5' alt="Admin" />
                    <div className='-mt-14 ml-24 space-y-0'>
                      <h4 className='text-white font-semibold'>Admin</h4>
@@ -37,7 +37,7 @@ const Manage = () => {
                  </div>
      
            {/* Main Content */}
-           <div className='lg:w-[1080px] lg:h-[620px] bg-white lg:rounded-tr-[10px] lg:rounded-br-[10px] w-[350px] ml-2 rounded-[5px] mt-7'>
+           <div className='lg:w-[1080px] lg:h-[620px] bg-white lg:rounded-tr-[10px] lg:rounded-br-[10px] w-[350px] ml-4 rounded-[5px] mt-7'>
                  <div className='flex justify-between'>
                         {/* Search Bar */}
                         <div className='w-[270px] h-[35px] bg-gray-200 mt-5 ml-5 rounded'>
